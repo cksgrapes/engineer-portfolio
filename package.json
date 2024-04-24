@@ -12,7 +12,7 @@
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,mjs,json}'",
     "hcm:build": "hcm 'src/**/*.module.{css,scss}'",
     "hcm:watch": "hcm 'src/**/*.module.{css,scss}' -w",
-    "prepare": "husky init"
+    "prepare": "husky"
   },
   "lint-staged": {
     "*": "prettier --write"
