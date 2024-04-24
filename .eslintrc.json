@@ -4,6 +4,7 @@
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:jsx-a11y/recommended",
+    "plugin:tailwindcss/recommended",
     "eslint:recommended",
     "prettier"
   ],
