@@ -11,4 +11,5 @@ pre-push
 *.webp
 *.env
 *.drawio
+*.avif
 .gitignore
