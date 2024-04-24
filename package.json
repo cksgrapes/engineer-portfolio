@@ -11,7 +11,8 @@
     "gen:page": "scaffdog generate page",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,mjs,json}'",
     "hcm:build": "hcm 'src/**/*.module.{css,scss}'",
-    "hcm:watch": "hcm 'src/**/*.module.{css,scss}' -w"
+    "hcm:watch": "hcm 'src/**/*.module.{css,scss}' -w",
+    "prepare": "husky init"
   },
   "dependencies": {
     "next": "14.2.2",
@@ -30,6 +31,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.0",
     "eslint-plugin-tailwindcss": "^3.15.1",
     "happy-css-modules": "^2.1.2",
+    "husky": "^9.0.11",
     "postcss": "^8",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
