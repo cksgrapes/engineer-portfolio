@@ -1,0 +1,14 @@
+#*.md
+bun.lockb
+.prettierignore
+pre-commit
+pre-build
+pre-push
+*.svg
+*.jpg
+*.ico
+*.png
+*.webp
+*.env
+*.drawio
+.gitignore
