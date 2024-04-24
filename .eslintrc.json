@@ -34,6 +34,7 @@
       }
     ],
     "jsx-a11y/control-has-associated-label": "error",
-    "jsx-a11y/prefer-tag-over-role": "warn"
+    "jsx-a11y/prefer-tag-over-role": "warn",
+    "react/no-unescaped-entities": "off"
   }
 }
